@@ -93,6 +93,9 @@ const select = (event) => {
       background: rgba(255, 255, 255, 0.2);
       cursor: pointer;
     }
+    .btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
   }
   .days {
     margin-top: 12px;
