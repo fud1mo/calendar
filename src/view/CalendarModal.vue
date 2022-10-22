@@ -52,7 +52,7 @@ const updateCalendar = () => {
     days.value.unshift("");
     breakCount--;
   }
-  let daysInMonth = selectedDate.value.daysInMonth();
+  let daysInMonth = displayDate.value.daysInMonth();
   let num = 1;
   while (daysInMonth > 0) {
     days.value.push(num);
