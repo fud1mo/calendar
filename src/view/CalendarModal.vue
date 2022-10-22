@@ -91,6 +91,7 @@ const select = (event) => {
       text-align: center;
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.2);
+      cursor: pointer;
     }
   }
   .days {
